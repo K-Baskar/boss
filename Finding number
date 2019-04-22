@@ -1,0 +1,13 @@
+import random
+original=random.randint(1,5);
+a=3;
+while a>0:
+    magic_number=int(input("enter number"))
+    if original==magic_number:
+        print("you win")
+        break
+    else:
+        print("try again")
+        a-=1;
+        print("Remaining attempts {}".format(a))
+    continue
